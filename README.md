@@ -1,19 +1,31 @@
-# ECE-276A-Project2
-## Particle Filter SLAM
-This is the project 2 of the course UCSD ECE276A: Sensing & Estimation in Robotics.
+# ECE276A PR2 Winter23 Particle Filter SLAM
 
-## Implementations:
+## Overview
+In this assignment, we implement a particle filter with a differential-drive motion model and scan-grid correlation observation model for simultaneous localization and occupancy-grid mapping.
 
-### Source files:
-- **code/main.py**: Main function code for the project 2.
-- **code/load_ata.py**: Function for loading the data.
-- **code/createOccupancyGridMap.py**: Function for creating the first scan occupancy grid map.
-- **code/getMotion.py**: Function for getting the robot motion.
-- **code/lidarProcess.py**: Function for processing lidar data.
-- **code/map.py**: Function for build particle filter map.
-- **code/motionUtils.py**: Function for motion model utils.
-- **code/pr2_utils.py**: Function for general utils.
-- **code/sync.py**: Function for sync data.
-    
-### Usuage:
-    python3 main.py
+## Installation
+- Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+## Run code:
+```bash
+python3 main.py
+```
+
+
+## Source code description:
+- **main.py**: Main function.
+- **map.py**: Occupancy grid map related class and function.
+- **motion.py**: Functions for motion model.
+- **observation.py**: Functions for observation model and map correlation.
+- **particle.py**: Particle class.
+- **transfrom.py**: Transform helper (especially for lidar scan).
+- **utils.py**: Functions for file loading, sync data, draw gif etc.
+- **test.ipynb**: For testing
+
+
+## Result
+Can be found in [report.pdf](./report.pdf)
+
