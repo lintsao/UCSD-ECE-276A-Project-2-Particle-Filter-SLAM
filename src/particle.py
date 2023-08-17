@@ -16,7 +16,7 @@ class Particle:
         N = self.num
         beta = 0
         chose_idx = []
-        index = int(np.random.choice(np.arange(N), 1, p=[1/N]*N))  # choose an index uniformly
+        index = int(np.random.choice(np.arange(N), 1, p=[1/N]*N)) # choose an index uniformly
 
         for _ in range(N):
             beta = beta + np.random.uniform(low=0, high=2*np.max(self.weight), size=1)

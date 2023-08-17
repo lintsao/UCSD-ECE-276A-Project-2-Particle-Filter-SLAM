@@ -23,14 +23,14 @@ def GetMapCorrelation(im, x_im, y_im, vp, xs, ys):
     Inputs:
         im:         the map 
         x_im,y_im:  physical x,y positions of the grid map cells
-        vp[0:2,:]:  occupied x,y positions from range sensor (in physical unit)  
-        xs, ys:     physical x,y,positions you want to evaluate "correlation" 
+        vp[0:2,:]:  occupied x,y positions from range sensor (in physical unit)
+        xs, ys:     physical x,y positions you want to evaluate "correlation" 
 
     Outputs:
         c:          sum of the cell values of all the positions hit by range sensor
     '''
     nx = im.shape[0]
-    ny = im.shape[1]
+    ny = im.shape[1] 
     xmin = x_im[0]
     xmax = x_im[-1]
     xresolution = (xmax-xmin)/(nx-1)
@@ -80,23 +80,16 @@ def UpdateParticle(Map, P, lidar_data, T):
     for i in range(len(particles)):
         particle_state = {'x':particles[i][0], 'y':particles[i][1], 'theta':particles[i][2]}
         scan_w = T.laserToWorld(laser_point_l, particle_state)
-        # scan_w = LaserToWorld(laser_point_l, particle_state)
         scan_w = filtering(scan_w, particle_state)
         x, y = scan_w[:,0], scan_w[:,1]
         corr = GetMapCorrelation(grid_tmp, x_im, y_im, np.vstack((x,y)), particles[i][0] + x_range, particles[i][1] + y_range)
         corrs.append(np.max(corr))
-        # bias_x, bias_y = unravel_index(corr.argmax(), corr.shape)
-        # # print(bias_x, bias_y)
-        # P.state[i][0] += (bias_x - l) * res
-        # P.state[i][1] += (bias_y - l) * res
 
     # get the particle with largest weight
     corrs = np.array(corrs)
     
     P.weight = P.weight * (corrs / np.linalg.norm(corrs))
-    # P.weight = Softmax(P.weight * corrs, 7)
 
     best_idx = np.where(P.weight==np.max(P.weight))[0][0]
     best_particle = particles[best_idx]
     return best_particle
-

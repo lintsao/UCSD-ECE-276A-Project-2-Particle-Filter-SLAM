@@ -1,0 +1,22 @@
+<root>
+	<AI>
+		<file n='assets/nindou_ai_kotaro.swf'				linkage='180'		type='swf'		desc="Kotaro"							v='1a'/>
+		<file n='assets/nindou_ai_kotaro.swf'				linkage='181'		type='swf'		desc="Kotaro"							v='1a'/>
+		<file n='assets/nindou_ai_kotaro.swf'				linkage='182'		type='swf'		desc="Kotaro"							v='1a'/>
+		<file n='assets/nindou_ai_kotaro.swf'				linkage='183'		type='swf'		desc="Kotaro"							v='1a'/>
+		<file n='assets/nindou_ai_oni_s1.swf'				linkage='211'		type='swf'		desc="Oni_S1"							v='1'/>
+		<file n='assets/nindou_ai_oni_s2.swf'				linkage='212'		type='swf'		desc="Oni_S2"							v='1'/>
+		<file n='assets/nindou_ai_oni_s3.swf'				linkage='213'		type='swf'		desc="Oni_S3"							v='1'/>
+		<file n='assets/nindou_ai_oni_s4.swf'				linkage='214'		type='swf'		desc="Oni_S4"							v='1'/>
+		<file n='assets/nindou_ai_benkei.swf'				linkage='215'		type='swf'		desc="benkei"							v='1b'/>
+		<file n='assets/nindou_ai_akaru.swf'				linkage='216'		type='swf'		desc="akaru"							v='1'/>
+		<file n='assets/nindou_ai_samurai_z2.swf'			linkage='217'		type='swf'		desc="samurai_z2"						v='1'/>
+		<file n='assets/nindou_ai_kyougen1.swf'				linkage='218'		type='swf'		desc="kyougen1"							v='1'/>
+		<file n='assets/nindou_ai_kyougen2.swf'				linkage='219'		type='swf'		desc="kyougen2"							v='1'/>
+		<file n='assets/nindou_ai_yashao2.swf'				linkage='220'		type='swf'		desc="yashao2"							v='1'/>
+		<file n='assets/nindou_ai_dadara.swf'				linkage='221'		type='swf'		desc="dadara"							v='1'/>
+		<file n='assets/nindou_ai_maomaru1.swf'				linkage='222'		type='swf'		desc="maomar"							v='1'/>
+		<file n='assets/nindou_ai_maomaru2.swf'				linkage='224'		type='swf'		desc="maomar"							v='1'/>
+		<file n='assets/nindou_ai_momosuke.swf'				linkage='223'		type='swf'		desc="momosuke"							v='1'/>
+	</AI>
+</root>

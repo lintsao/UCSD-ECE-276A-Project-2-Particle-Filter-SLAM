@@ -1,0 +1,23 @@
+h1{
+	font-size:24px;
+	font-weight:bolder;
+}
+p{
+	font-family:"Myriad Pro", "Trebuchet MS", "Lucida Sans", sans-serif;
+	font-size:14px;
+	color:#000000;
+	text-indent:10px;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.boldWords{
+	font-weight:bold;
+	font-style:italic;
+}
+a:link{
+	color:#3366FF;
+	text-decoration:underline;
+}
+a:hover{
+	color:#000066;
+}

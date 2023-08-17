@@ -42,8 +42,12 @@ class OccupancyMap:
             y = b + self.grid.shape[1] // 2  # offset to center
 
             if 0 <= x and x <= self.grid.shape[0] and 0 <= y and y <= self.grid.shape[1]:
-                self.grid[x, y] += self.logodd # Increase the log-odds if the cell was observed occupied.
-            self.grid[line[0][:-1] + self.grid.shape[0] // 2, line[1][:-1] + self.grid.shape[1] // 2] -= self.logodd # Decrease the log-odds if the cell was observed free.
+                self.grid[x, y] += self.logodd # Increase the log-odds if the cell was observed occupied
+
+            for lx in line[0][:-1] + self.grid.shape[0] // 2:
+                for ly in line[1][:-1] + self.grid.shape[1] // 2:
+                    if 0 <= lx and lx <= self.grid.shape[0] and 0 <= ly and ly <= self.grid.shape[1]:
+                        self.grid[lx, ly] -= self.logodd # Decrease the log-odds if the cell was observed free.
         
         # clip
         self.grid[self.grid >= 100]  = 100

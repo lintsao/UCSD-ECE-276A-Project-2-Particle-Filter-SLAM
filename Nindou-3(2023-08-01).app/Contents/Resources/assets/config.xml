@@ -1,0 +1,176 @@
+<root>
+	<servers n='3'>
+		<server>
+			<ip>gs.1001f.com</ip>
+			<port>9891</port>
+		</server>
+		<server>
+			<ip>gs.1001f.com</ip>
+			<port>9892</port>
+		</server>
+		<server>
+			<ip>gs.1001f.com</ip>
+			<port>9892</port>
+		</server>
+	</servers>
+	<links>
+		<home>http://1001f.com/</home>
+		<login>http://1001f.com</login>
+		<authkey>https://1001f.com/index.php?r=site/getAuthkeyV2</authkey>
+		<nincoin>https://1001f.com/index.php?r=site/orderchannel&pid=1</nincoin>
+		<plugininfo>http://forum.1001f.com/qa/flashplayer_pc1.html</plugininfo>
+		<blog>http://forum.1001f.com/</blog>
+		<bbr>http://forum.1001f.com/bb/tw/</bbr>
+		<fanPage>https://www.facebook.com/nindou.1001f</fanPage>
+		<comingSoon>https://1001f.com/nindoum/index.html</comingSoon>
+	</links>
+	<cr>TW</cr>
+	<jp></jp>
+	<rmode>0</rmode>
+<!-- fixed -->
+	<tp>1</tp>
+	<assets>
+		<loader>
+			<file name='nindou_loader' 		v='12a'/>
+		</loader>
+		<weapon>
+			<file name='nindou_weapon' 					d='Weapons'	n='34'  begin='81'  end='91'/>
+		</weapon>
+		<nindou>
+			<file name='sharedLib'						d='Graphics'		s='1'/>
+			<file name='sfxLib'							d='Sound'			s='1'/>
+			<file name='commonLib'						d='UI'	 			s='1'/>
+			<!-- <file name='nindou_core' 		v='131e'		d='Engine'/> -->
+			<file name='login_screen'		v='2'		d='LoginScreen'/>
+			<file name='nindou_music'		v='10'		d='Music'/>
+			<file name='nindou_login'		v='6'		d='UI'/>
+			<file name='nindou_outfit' 		v='N'		d='Avatar'/>
+			<file name='nindou_mall' 		v='13b'		d='Shops'/>
+			<file name='nindou_ai' 			v='3b'		d='Baddies'/>
+			<file name='nindou_ninja' 		v='9c'		d='Nindou'/>
+			<file name='nindou_task_main'	v='1b'		d='Task'/>
+			<file name='nindou_uraMall'		v='15'		d='NewMall'/>
+			<file name='nindou_growthSystem' v='2'		d='growth'/>
+			<file name='nindou_ai_shikigami' v='1'		d='AI'/>
+			<file name='nindou_main' 		v='66L'		d='Menu'/>
+		</nindou>
+		<training>
+			<file name='senpou_music' 		v='1a'		d='Music'/>
+			<file name='senpou_tiles' 		v='1'		d='Maps'/>
+			<file name='senpou_main' 		v='1c'		d='Menu'/>
+		</training>
+		<toro>
+			<file name='toro_lobbies'				v='12'				d='Lobbies'/>
+			<file name='toro_music'					v='10'				d='Music'/>
+			<file name='toro_tiles'					v='14a'				d='Maps'/>
+			<file name='nindou_ai_kotaro'			v='1a'				d='Kotaro'/>
+			<file name='toro_main'					v='47'				d='Menu'/>
+		</toro>
+        <gild>
+        	<file name='nindou_gild' 		v='2'		d='Gild'/>
+			<file name='toro_music' 		v='10'		d='Music'/>			
+			<file name='toro_tiles' 		v='14a'		d='Maps'/>
+			<file name='toro_main' 			v='47'		d='Menu'/>
+        </gild>
+		<oni>
+			<file name='oni_kaikojo' 		v='1'		d='Main'/>
+			<file name='oni_music' 			v='3'		d='Music'/>
+			<file name='oni_lobbies' 		v='3'		d='Lobbies'/>
+			<file name='oni_tiles' 			v='3'		d='Maps'/>
+			<file name='oni_main' 			v='9'		d='Menu'/>
+		</oni>
+		<chikemuri>
+			<file name='oni_chikemuri' 		v='2'		d='Main'/>
+			<file name='oni_chikemuri_tiles'	v='1'       d='Tiles'/>
+			<file name='oni_chikemuri_battle' v='1'     d='Battle'/>
+			<file name='oni_chikemuri_music' v='2'		d='Music'/>
+			<file name='oni_lobbies' 		v='3'		d='Lobbies'/>
+			<file name='nindou_ai_oni_s1'	v='1'		d='AI'/>
+			<file name='nindou_ai_oni_s2'	v='1'		d='AI'/>
+			<file name='nindou_ai_oni_s3'	v='1'		d='AI'/>
+			<file name='nindou_ai_oni_s4'	v='1'		d='AI'/>
+			<file name='nindou_ai_akaru'	v='1'		d='AI'/>
+			<file name='nindou_ai_samurai_z2'	v='1'		d='AI'/>
+			<file name='nindou_ai_dadara'   v='1'		d='AI'/>
+			<file name='nindou_ai_maomaru1'	v='1'		d='AI'/>
+			<file name='nindou_ai_momosuke'	v='1'		d='AI'/>
+			<file name='nindou_ai_kyougen1'  v='1'		d='AI'/>
+			<file name='nindou_ai_kyougen2'  v='1'		d='AI'/>
+			<file name='nindou_ai_benkei'	v='1b'		d='AI'/>
+			<file name='nindou_ai_yashao2'	v='1'		d='AI'/>
+			<file name='oni_main' 			v='9'		d='Menu'/>
+		</chikemuri>
+		<shiren>
+			<file name='shiren_main' 			v='1c'		d='Menu'/>
+			<file name='shiren_tiles' 			v='1'		d='map'/>
+			<file name='shiren_music' 			v='1'		d='music'/>
+			<file name='boss_orochi' 			v='1a'		d='boss'/>
+			<file name='boss_gumo' 			v='1a'		d='boss'/>
+			<file name='boss_ungaikyou' 			v='1a'		d='boss'/>
+			<file name='oni_main'			v='9'		d='Menu'/>
+		</shiren>
+        <centralWorld>
+			<file name='toro_music' 		v='10'		d='Music'/>			
+			<file name='toro_tiles' 		v='14a'		d='Maps'/>
+			<file name='toro_main'			v='47'		d='Menu'/>
+			<file name='nindou_mmr_main' 	v='2c'		d='Menu'/>
+        </centralWorld>		
+        <tower>
+            <file name='weirdTower_main'	v='5a'      d='WeirdTower'/>
+            <file name='weirdTower_tiles'  	v='1c'      d='Tiles'/>
+            <file name='kusanagi_tiles'  	v='1'      d='Tiles'/>
+            <file name='toro_main'			v='47'		d='Menu'/>
+            <file name='weirdTower_music'	v='2'		d='Music'/> 
+            <file name='kusanagi_battlefield'	v='1'		d='battle'/>
+            <file name='nindou_ai_kotaro'	v='1a'		d='Kotaro'/>
+            <file name='nindou_ai_oni_s1'	v='1'		d='AI'/>
+			<file name='nindou_ai_oni_s2'	v='1'		d='AI'/>
+			<file name='nindou_ai_oni_s3'	v='1'		d='AI'/>
+			<file name='nindou_ai_oni_s4'	v='1'		d='AI'/>
+			<file name='nindou_ai_yomiA'	v='1a'		d='AI'/>
+			<file name='nindou_ai_yomiB'	v='1a'		d='AI'/>
+        </tower>
+        <ai_asset>
+        	<ai>
+        		<file name='nindou_ai_kyougen1'  v='1'		d='AI'/>
+        		<file name='nindou_ai_yashao2'	v='1'		d='AI'/>
+        		<file name='nindou_ai_benkei'	v='1b'		d='AI'/>
+        		<file name='nindou_ai_samurai_z2'	v='1'		d='AI'/>
+        	</ai>
+			<ai>
+				<file name='nindou_ai_kyougen2'  v='1'		d='AI'/>
+				<file name='nindou_ai_kotaro'	v='1a'		d='Kotaro'/>
+				<file name='nindou_ai_akaru'	v='1'		d='AI'/>
+			</ai>
+		</ai_asset>
+		<trainer>
+			<file name='trainer_main'/>
+		</trainer>
+        <terrainMap>
+                    1-1, 1-2, 1-3, 1-4, 1-5, 1-6, 1-7, 1-8, 1-9, 1-10,
+                    2-1, 2-2, 2-3, 2-4, 2-5, 2-6, 2-7, 2-8, 
+                    3-1, 3-2, 3-3, 3-4, 3-5, 3-6, 3-7, 3-8, 
+                    4-1, 4-2, 4-3, 4-4, 4-5, 4-6, 4-7, 4-8, 
+                    5-1, 5-2, 5-3, 5-4, 5-5, 5-6, 5-7, 5-8, 5-9, 5-10, 5-11, 5-12, 
+                    6-1, 6-2, 6-3, 6-4, 6-5, 6-6, 6-7, 6-8, 
+                    7-1, 7-2, 7-3, 7-4, 7-5, 7-6, 7-7, 7-8, 
+                    8-1, 8-2, 8-3, 8-4, 8-5, 8-6, 8-7, 8-8, 
+                    9-1, 9-2, 9-3, 9-4, 9-5, 9-6, 9-7, 9-8
+        </terrainMap>
+	</assets>
+
+	<mmrServer>
+			<ip>210.65.253.1</ip>
+			<port>9890</port>
+			<isEnable>0</isEnable>
+	</mmrServer>
+	<mmrExpireDate>2018-09-04</mmrExpireDate>
+	<catchBadGuy>1</catchBadGuy>     <!-- 1=開啟防加速功能     0=關閉防加速功能 -->
+	<defaultGasha>1</defaultGasha>
+	<taskSwitch>1</taskSwitch>
+	<idle>120</idle>
+	<gn>灰組前輩</gn>
+	<cv>12_3_3_0</cv>
+
+</root>
+<!--  TAIWAN Config file -->
