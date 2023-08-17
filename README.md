@@ -1,9 +1,6 @@
 # UCSD ECE 276A Project 2: Particle Filter SLAM
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 This project focuses on the implementation of simultaneous localization and mapping (SLAM) using an encoder, an IMU odometry, 2-D Li- DAR scans, and RGBD measurements from a differential-drive robot. The odometry and LiDAR measurements are used to localize the robot and build a 2-D occupancy grid map of the environment. The RGBD images are used to assign colors to your 2-D map of the floor.
 
 <p align="center">
@@ -48,33 +45,9 @@ python3 main.py
 - **particle.py**: Particle class.
 - **transfrom.py**: Transform helper (especially for lidar scan).
 - **utils.py**: Functions for file loading, sync data, draw gif etc.
-- **test.ipynb**: For testing
+- **test.ipynb**: For testing.
 
 or you could use **test.ipynb** to check the step-by-step implementation.
+
 ## Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
-
-
-
-## Installation
-- Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-## Run code:
-```bash
-python3 main.py
-```
-
-
-## Source code description:
-- **main.py**: Main function.
-- **map.py**: Occupancy grid map related class and function.
-- **motion.py**: Functions for motion model.
-- **observation.py**: Functions for observation model and map correlation.
-- **particle.py**: Particle class.
-- **transfrom.py**: Transform helper (especially for lidar scan).
-- **utils.py**: Functions for file loading, sync data, draw gif etc.
-- **test.ipynb**: For testing
-
