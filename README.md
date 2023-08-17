@@ -4,10 +4,10 @@
 This project focuses on the implementation of simultaneous localization and mapping (SLAM) using an encoder, an IMU odometry, 2-D Li- DAR scans, and RGBD measurements from a differential-drive robot. The odometry and LiDAR measurements are used to localize the robot and build a 2-D occupancy grid map of the environment. The RGBD images are used to assign colors to your 2-D map of the floor.
 
 <p align="center">
-  <img src="https://github.com/homerun-beauty/UCSD-ECE-276B-Project-2-Motion-Planning/assets/60029900/761258aa-20d3-4792-a84c-a8f9ed142cb9" alt="Project Image" width="400">
-  <img src="https://github.com/homerun-beauty/UCSD-ECE-276B-Project-2-Motion-Planning/assets/60029900/fda80b7f-5e42-4eb3-a98f-84cf2c133cfb" alt="Project Image" width="400">
+  <img src="https://github.com/lintsao/UCSD-ECE-276A-Project-2-Particle-Filter-SLAM/blob/main/gif/test_20.gif" alt="Project Image" width="400">
+  <img src="https://github.com/lintsao/UCSD-ECE-276A-Project-2-Particle-Filter-SLAM/blob/main/gif/test_21.gif" alt="Project Image" width="400">
 </p>
-<p align="center">Here is a visual representation of our project in action. The agent is inside the maze environment. </p>
+<p align="center">Here is a visual representation of our project. </p>
 
 ## To get started with the motion planning project, follow these steps:
 
