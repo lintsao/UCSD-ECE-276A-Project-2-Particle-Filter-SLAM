@@ -1,4 +1,4 @@
-# ECE276A PR2 Winter23 Particle Filter SLAM
+# UCSD ECE 276A Project 2: Particle Filter SLAM
 
 ## Overview
 In this assignment, we implement a particle filter with a differential-drive motion model and scan-grid correlation observation model for simultaneous localization and occupancy-grid mapping.
