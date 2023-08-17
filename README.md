@@ -28,7 +28,7 @@ This project focuses on the implementation of simultaneous localization and mapp
   pip3 install -r requirements.txt
   ```
 
-4. You're ready to use the motion planning project!
+4. You're ready to use the particle filter slam project!
 
 ## Usage
 
