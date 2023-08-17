@@ -25,7 +25,3 @@ python3 main.py
 - **utils.py**: Functions for file loading, sync data, draw gif etc.
 - **test.ipynb**: For testing
 
-
-## Result
-Can be found in [report.pdf](./report.pdf)
-
